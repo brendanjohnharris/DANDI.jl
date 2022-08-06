@@ -1,0 +1,7 @@
+name = "DANDI"
+uuid = "1bf84ac4-b661-4f75-ad90-221752808de0"
+authors = ["brendanjohnharris <brendanjohnharris@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"

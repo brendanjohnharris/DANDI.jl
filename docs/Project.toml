@@ -1,0 +1,3 @@
+[deps]
+DANDI = "1bf84ac4-b661-4f75-ad90-221752808de0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
