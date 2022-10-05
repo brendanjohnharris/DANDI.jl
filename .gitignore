@@ -11,3 +11,5 @@
 data/**
 docs/build/
 docs/site/
+/.CondaPkg
+*.nwb

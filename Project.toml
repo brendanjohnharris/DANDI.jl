@@ -3,5 +3,10 @@ uuid = "1bf84ac4-b661-4f75-ad90-221752808de0"
 authors = ["brendanjohnharris <brendanjohnharris@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 [compat]
 julia = "1.6"
