@@ -1,7 +1,11 @@
 name = "DANDI"
 uuid = "47d7f1a7-5a03-43cb-9594-a2dfa8fa9501"
 authors = ["brendanjohnharris <brendanjohnharris@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.51.0"
+
+[deps]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
 
 [compat]
 julia = "1.6"
