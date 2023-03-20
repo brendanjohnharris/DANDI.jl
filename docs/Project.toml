@@ -1,5 +1,5 @@
 [deps]
-DANDI = "47d7f1a7-5a03-43cb-9594-a2dfa8fa9501"
+Dandi = "47d7f1a7-5a03-43cb-9594-a2dfa8fa9501"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 OhMyREPL = "5fb14364-9ced-5910-84b2-373655c76a03"
 PkgTemplates = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"

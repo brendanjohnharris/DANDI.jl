@@ -1,4 +1,4 @@
-module DANDI
+module Dandi
 using PythonCall
 using CondaPkg
 
@@ -19,11 +19,11 @@ end
 """
     dandiurl(dandiset_id::String="000006", filepath::String="sub-anm372795/sub-anm372795_ses-20170718.nwb"; version::Union{Nothing, String}=nothing) -> String
 
-Returns the S3 URL of a file in a DANDI dataset.
+Returns the S3 URL of a file in a Dandi dataset.
 
 ## Arguments
-- `dandiset_id`: The ID of the DANDI dataset.
-- `filepath`: The path of the file within the DANDI dataset.
+- `dandiset_id`: The ID of the Dandi dataset.
+- `filepath`: The path of the file within the Dandi dataset.
 - `version`: The version of the file. If nothing, the latest version is used.
 """
 function dandiurl(dandiset_id="000006", filepath="sub-anm372795/sub-anm372795_ses-20170718.nwb"; version=nothing)
