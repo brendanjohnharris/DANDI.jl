@@ -1,4 +1,4 @@
-name = "Dandi"
+name = "DANDIArchive"
 uuid = "47d7f1a7-5a03-43cb-9594-a2dfa8fa9501"
 authors = ["brendanjohnharris <brendanjohnharris@gmail.com> and contributors"]
 version = "0.51.0"

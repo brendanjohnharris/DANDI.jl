@@ -1,13 +1,13 @@
-using Dandi
+using DANDIArchive
 using Documenter
 
-DocMeta.setdocmeta!(Dandi, :DocTestSetup, :(using Dandi); recursive=true)
+DocMeta.setdocmeta!(DANDIArchive, :DocTestSetup, :(using DANDIArchive); recursive=true)
 
 makedocs(;
-    modules=[Dandi],
+    modules=[DANDIArchive],
     authors="brendanjohnharris <brendanjohnharris@gmail.com> and contributors",
-    repo="https://github.com/brendanjohnharris/Dandi.jl/blob/{commit}{path}#{line}",
-    sitename="Dandi.jl",
+    repo="https://github.com/brendanjohnharris/DANDIArchive.jl/blob/{commit}{path}#{line}",
+    sitename="DANDIArchive.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         edit_link="main",
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(
-    repo = "github.com/brendanjohnharris/Dandi.jl.git",
+    repo = "github.com/brendanjohnharris/DANDIArchive.jl.git",
 )

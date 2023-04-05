@@ -1,4 +1,4 @@
-module Dandi
+module DANDIArchive
 using PythonCall
 using CondaPkg
 

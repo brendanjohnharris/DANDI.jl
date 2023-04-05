@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = Dandi
+CurrentModule = DANDIArchive
 ```
 
-# Dandi
+# DANDIArchive
 
-Documentation for [Dandi](https://github.com/brendanjohnharris/Dandi.jl).
+Documentation for [DANDIArchive](https://github.com/brendanjohnharris/DANDIArchive.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [Dandi]
+Modules = [DANDIArchive]
 ```
