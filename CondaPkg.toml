@@ -1,5 +1,5 @@
 [deps]
-dandi = "==0.51"
+dandi = ""
 pynwb = ""
 h5py = ""
-
+python = "<3.11"
